@@ -1,0 +1,92 @@
+/* Global style */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9fb;
+    color: #333;
+  }
+  
+  /* Header */
+  header {
+    background-color: #0077cc;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  nav a:hover {
+    color: #00a5f7;
+  }
+  
+  #darkToggle {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+  }
+
+  .card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    width: 800px;
+    height: 320px;
+  }
+
+    /* Dark Mode Styles */
+    .dark-mode {
+      background-color: #1e1e1e;
+      color: #eee;
+    }
+    
+    .dark-mode header {
+      background-color: #333;
+    }
+    
+    .dark-mode nav a {
+      color: #eee;
+    }
+    
+    .dark-mode .hero {
+      background-color: #2b2b2b;
+    }
+    
+    .dark-mode .card {
+      background-color: #333;
+      color: #eee;
+    }
+    
+    .dark-mode footer {
+      background-color: #111;
+      color: #aaa;
+    }

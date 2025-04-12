@@ -1,0 +1,111 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9fb;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #0077cc;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #00a5f7;
+}
+
+#darkToggle {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* Artikel Section */
+.Artikel {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card,
+.card2,
+.card3,
+.card4 {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    width: 800px;
+    margin-top: 2rem;
+    color: #333;
+}
+
+/* Optional: kalau mau tetap beda ukuran height */
+.card { height: 300px; }
+.card2 { height: 470px; }
+.card3 { height: 450px; }
+.card4 { height: 320px; }
+
+/* Footer */
+footer {
+    background: #222;
+    color: #ccc;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+
+/* Dark Mode */
+.dark-mode {
+    background-color: #1e1e1e;
+    color: #eee;
+}
+
+.dark-mode header {
+    background-color: #333;
+}
+
+.dark-mode nav a {
+    color: #eee;
+}
+
+.dark-mode .card,
+.dark-mode .card2,
+.dark-mode .card3,
+.dark-mode .card4 {
+    background-color: #333 !important;
+    color: #eee !important;
+}
+
+.dark-mode footer {
+    background-color: #111;
+    color: #aaa;
+}
