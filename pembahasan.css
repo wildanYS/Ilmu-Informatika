@@ -132,4 +132,48 @@ body {
     background-color: #111;
     color: #aaa;
   }
-  
+
+  /* Responsive Design for Mobile untuk pembahasan*/
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+  .hero {
+      padding: 2rem 1rem;
+      text-align: left;
+  }
+
+  .hero h3 {
+      font-size: 1.5rem;
+  }
+
+  .btn {
+      width: 100%;
+      text-align: center;
+      float: none;
+      margin-bottom: 1rem;
+  }
+
+  .informasi {
+      padding: 1rem;
+  }
+
+  .container {
+      width: 100%;
+      padding: 0;
+  }
+
+  .card {
+      width: 100%;
+      height: auto;
+      padding: 1rem;
+  }
+
+  footer {
+      font-size: 0.8rem;
+      padding: 1rem;
+  }
+}
