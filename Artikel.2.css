@@ -109,3 +109,42 @@ footer {
     background-color: #111;
     color: #aaa;
 }
+
+/* Responsive Design for Mobile untuk Artikel*/
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+        gap: 0.5rem;
+    }
+
+    .Artikel {
+        padding: 1rem;
+    }
+
+    .card,
+    .card2,
+    .card3,
+    .card4 {
+        width: 100%;
+        height: auto;
+        padding: 1rem;
+    }
+
+    .card h3,
+    .card2 h3,
+    .card3 h3,
+    .card4 h3 {
+        font-size: 1.2rem;
+    }
+
+    footer {
+        font-size: 0.8rem;
+    }
+}
