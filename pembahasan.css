@@ -151,7 +151,7 @@ body {
   }
 
   .btn {
-      width: 100%;
+      width: auto;
       text-align: center;
       float: none;
       margin-bottom: 1rem;
@@ -162,12 +162,12 @@ body {
   }
 
   .container {
-      width: 100%;
+      width: auto;
       padding: 0;
   }
 
   .card {
-      width: 100%;
+      width: auto;
       height: auto;
       padding: 1rem;
   }
